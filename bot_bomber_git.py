@@ -5,7 +5,7 @@ from telebot import TeleBot
 import telebot
 import time
 
-TOKEN = ''
+TOKEN = '1312095117:AAHx_KMaMPHGr0rKsM-Uc6YNNQTFVJpjet0'
 
 THREADS_LIMIT = 10000
 
