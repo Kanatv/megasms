@@ -62,7 +62,7 @@ def start(message):
     stop = types.KeyboardButton(text='Spam Stop')
     info = types.KeyboardButton(text='Information')
 
-    keyboard.add(*buttons_to_add)
+    #keyboard.add(*buttons_to_add)
     bot.send_message(message.chat.id, 'You\'re welcome!🙋‍♂!\nThat\'s the SMS bomber\nYou are responsible for using this bot.\nChoose the action:',  reply_markup=keyboard)
     save_chat_id(message.chat.id)
 
